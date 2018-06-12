@@ -1,0 +1,2 @@
+class CreateDriver < ApplicationRecord
+end

@@ -1,0 +1,46 @@
+
+
+
+  <%= form_for :user, url: users_path do |f| %>
+  
+
+    <%= f.label :name %><br>
+
+    <%= f.text_field :name, class: "form-control", placeholder: "name" %>
+
+  </div>
+
+  <div class ="form_group">  
+
+    <%= f.label :lastname %><br>
+
+    <%= f.text_area :lastname, class: "form-control", placeholder: "lastname" %>
+
+  </div>
+
+  <div class ="form_group">  
+
+    <%= f.label :email %><br>
+
+    <%= f.file_field :email, class: "form-control", placeholder: "email" %>
+
+  </div>
+
+
+
+  <div class ="form_group">
+  
+
+    <%= f.label :phone %><br>
+
+    <%= f.text_field :phone, class: "form-control", placeholder: "phone" %>
+
+  </div>
+
+  <p>
+
+    <%= f.submit class: "btn btn-default"%>
+
+  </p>
+
+
