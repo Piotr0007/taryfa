@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+
+  
+ root 'test#navigation'
+
+ resources:users
+
+
   get 'test/index'
   get 'test/navigation'
   get 'user/new'
